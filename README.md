@@ -156,7 +156,7 @@ Abra o arquivo utilizando o **Power BI Desktop** para explorar o dashboard compl
 
 ## Visão Geral
 
-![Dashboard Executivo](images/dashboard_visao_geral.png)
+![Dashboard Executivo](images/Pagina 01 - Visão Geral.png)
 
 ---
 
