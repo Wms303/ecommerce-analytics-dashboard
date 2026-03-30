@@ -1,8 +1,8 @@
-# 📊 E-commerce Analytics — Performance, Retenção e Experiência do Cliente
+#  E-commerce Analytics — Performance, Retenção e Experiência do Cliente
 
 ---
 
-## 💼 Visão de Negócio
+##  Visão de Negócio
 
 Este projeto simula a atuação de um Analista de BI em um ambiente de marketplace digital, com foco em:
 
@@ -15,7 +15,7 @@ A proposta é transformar dados em decisões estratégicas que impactam diretame
 
 ---
 
-## 🧠 Problema de Negócio
+##  Problema de Negócio
 
 Marketplaces digitais enfrentam desafios críticos relacionados a:
 
@@ -33,7 +33,7 @@ Diante disso, surgem as seguintes perguntas:
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 - Analisar o desempenho geral do marketplace  
 - Entender o comportamento e retenção de clientes  
@@ -42,7 +42,7 @@ Diante disso, surgem as seguintes perguntas:
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - **Brazilian E-Commerce Public Dataset (Olist)**  
 - Dados reais de pedidos entre 2016 e 2018  
@@ -58,7 +58,7 @@ Contém informações de:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - SQL (extração e transformação de dados)  
 - Power BI (visualização e análise)  
@@ -67,7 +67,7 @@ Contém informações de:
 
 ---
 
-# 📊 Estrutura da Análise
+#  Estrutura da Análise
 
 O projeto foi estruturado em três pilares principais de negócio:
 
@@ -126,7 +126,7 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-# 🚨 Principais Insights de Negócio
+#  Principais Insights de Negócio
 
 - O marketplace apresenta forte volume de vendas, porém baixa retenção de clientes  
 - A maioria dos usuários não retorna após a primeira compra  
@@ -136,7 +136,7 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-# 🔥 💡 Hipóteses de Negócio
+#  Hipóteses de Negócio
 
 1. Melhorar o tempo de entrega aumenta a satisfação e retenção  
 2. Clientes com boa experiência inicial têm maior probabilidade de recompra  
@@ -145,9 +145,9 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-# 🧪 Propostas de Experimentação
+#  Propostas de Experimentação
 
-### 🎯 Experimento 1 — Logística
+###  Experimento 1 — Logística
 
 - Redução do prazo de entrega para novos clientes  
 - Medir impacto em:
@@ -157,7 +157,7 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-### 🎯 Experimento 2 — Retenção
+###  Experimento 2 — Retenção
 
 - Campanhas de incentivo pós-primeira compra  
 - Testar:
@@ -167,25 +167,25 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-### 🎯 Experimento 3 — Segmentação
+###  Experimento 3 — Segmentação
 
 - Criar estratégias específicas por região  
 - Foco em estados com pior performance logística  
 
 ---
 
-# 📈 Impacto Esperado no Negócio
+#  Impacto Esperado no Negócio
 
 - Aumento da retenção de clientes  
 - Crescimento do LTV (Lifetime Value)  
 - Redução do churn  
 - Aumento de receita sem necessidade de aquisição  
 
-💥 Resultado esperado: crescimento sustentável do marketplace
+ Resultado esperado: crescimento sustentável do marketplace
 
 ---
 
-# 🧠 Recomendação Estratégica
+#  Recomendação Estratégica
 
 - Priorizar melhorias logísticas como alavanca de experiência  
 - Criar estratégias focadas na primeira jornada do cliente  
@@ -194,7 +194,7 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-# 📊 Dashboard
+#  Dashboard
 
 ## Visão Geral
 ![Dashboard Executivo](images/dashboard_visao_geral.png)
@@ -207,7 +207,7 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-# 🚀 Diferenciais do Projeto
+#  Diferenciais do Projeto
 
 - Análise end-to-end de um marketplace  
 - Integração entre dados de negócio, cliente e operação  
@@ -217,7 +217,7 @@ O projeto foi estruturado em três pilares principais de negócio:
 
 ---
 
-# 🔮 Próximos Passos
+#  Próximos Passos
 
 - Implementação de análise de cohort (retenção ao longo do tempo)  
 - Modelagem de churn  
