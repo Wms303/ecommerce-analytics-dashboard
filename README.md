@@ -1,203 +1,232 @@
-# 📊 E-commerce Analytics Dashboard
-
-Projeto de **Business Intelligence** desenvolvido para análise de desempenho de um marketplace de e-commerce utilizando dados públicos da Olist.
-
-Este projeto faz parte do meu **portfólio profissional em Data Analytics**, demonstrando habilidades em **SQL, modelagem de dados, análise exploratória e construção de dashboards analíticos utilizando Power BI**, transformando dados brutos em insights estratégicos de negócio.
+# 📊 E-commerce Analytics — Performance, Retenção e Experiência do Cliente
 
 ---
 
-# 🎯 Objetivo do Projeto
+## 💼 Visão de Negócio
 
-Analisar o desempenho de um marketplace de e-commerce sob diferentes perspectivas de negócio:
+Este projeto simula a atuação de um Analista de BI em um ambiente de marketplace digital, com foco em:
 
-- Performance de vendas
-- Comportamento dos clientes
-- Eficiência logística
-- Experiência do consumidor
+- Monitoramento de KPIs de negócio  
+- Identificação de oportunidades de crescimento  
+- Análise de comportamento do cliente  
+- Avaliação de impacto operacional na experiência do usuário  
 
-A análise busca gerar **insights estratégicos para apoiar a tomada de decisão baseada em dados**.
-
----
-
-# 🗂 Dataset Utilizado
-
-Dataset público:
-
-**Brazilian E-Commerce Public Dataset by Olist**
-
-Fonte: Kaggle
-
-O dataset contém informações reais de pedidos realizados em marketplaces brasileiros entre os anos de 2016 e 2018.
-
-Principais informações disponíveis no dataset:
-
-- Pedidos
-- Clientes
-- Produtos
-- Vendedores
-- Pagamentos
-- Avaliações
-- Logística de entrega
+A proposta é transformar dados em decisões estratégicas que impactam diretamente receita, retenção e eficiência operacional.
 
 ---
 
-# 🛠 Ferramentas Utilizadas
+## 🧠 Problema de Negócio
 
-- Power BI
-- SQL
-- Python (Anaconda / Jupyter)
-- Kaggle Dataset
-- Modelagem de Dados
-- DAX
+Marketplaces digitais enfrentam desafios críticos relacionados a:
+
+- Baixa recorrência de clientes  
+- Ineficiência logística  
+- Variação na experiência do usuário  
+- Necessidade de crescimento sustentável  
+
+Diante disso, surgem as seguintes perguntas:
+
+- Onde estamos perdendo clientes?  
+- O que impacta a retenção e recompra?  
+- Como a logística influencia a satisfação do cliente?  
+- Quais alavancas podem aumentar receita e eficiência?  
 
 ---
 
-# 📊 Estrutura dos Dashboards
+## 🎯 Objetivo
 
-O projeto foi organizado em **3 camadas principais de análise**, permitindo entender o negócio sob diferentes perspectivas.
+- Analisar o desempenho geral do marketplace  
+- Entender o comportamento e retenção de clientes  
+- Avaliar impacto logístico na experiência do usuário  
+- Gerar recomendações estratégicas orientadas a dados  
 
 ---
 
-# 1️⃣ Visão Geral do E-commerce
+## 📦 Dataset
 
-Dashboard executivo com indicadores estratégicos do marketplace.
+- **Brazilian E-Commerce Public Dataset (Olist)**  
+- Dados reais de pedidos entre 2016 e 2018  
+
+Contém informações de:
+
+- Pedidos  
+- Clientes  
+- Produtos  
+- Pagamentos  
+- Avaliações  
+- Entregas  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- SQL (extração e transformação de dados)  
+- Power BI (visualização e análise)  
+- Python (tratamento e exploração de dados)  
+- DAX (modelagem de métricas)  
+
+---
+
+# 📊 Estrutura da Análise
+
+O projeto foi estruturado em três pilares principais de negócio:
+
+---
+
+## 1️⃣ Performance do Marketplace
+
+### KPIs Monitorados
+
+- Receita Total: R$ 13,6 milhões  
+- Total de Pedidos: ~99 mil  
+- Ticket Médio: R$ 137  
+- Total de Clientes: ~99 mil  
+- Tempo Médio de Entrega: 12 dias  
+- Avaliação Média: 4,09  
+
+### Principais Análises
+
+- Evolução da receita ao longo do tempo  
+- Categorias com maior geração de receita  
+- Distribuição geográfica das vendas  
+- Métodos de pagamento  
+
+---
+
+## 2️⃣ Comportamento e Retenção de Clientes
 
 ### KPIs
 
-- Receita Total
-- Total de Pedidos
-- Ticket Médio
-- Total de Clientes
-- Total de Vendedores
-- Tempo Médio de Entrega
-- Avaliação Média
+- Receita por cliente  
+- Frequência de compra  
+- Ticket médio por cliente  
 
-### Análises
+### Principais Insights
 
-- Evolução mensal da receita
-- Top categorias de produtos
-- Distribuição geográfica das vendas
-- Métodos de pagamento
-- Distribuição das avaliações
+- A maioria dos clientes realiza apenas **1 compra**  
+- Baixa recorrência indica oportunidade de retenção  
+- Concentração de clientes na região Sudeste  
 
 ---
 
-# 2️⃣ Análise de Clientes
-
-Dashboard focado no comportamento da base de clientes.
+## 3️⃣ Logística e Experiência do Cliente
 
 ### KPIs
 
-- Total de Clientes
-- Receita por Cliente
-- Pedidos por Cliente
-- Ticket Médio por Cliente
+- % Entregas no prazo: 92%  
+- Pedidos atrasados: 7.826  
+- Tempo médio de entrega: 12 dias  
+- Avaliação média: 4,09  
 
-### Análises
+### Principais Insights
 
-- Clientes por estado
-- Ticket médio por região
-- Crescimento da base de clientes ao longo do tempo
-- Frequência de compra
-
-### Insight
-
-A análise mostra que **a maioria dos clientes realiza apenas uma compra**, indicando baixa recorrência e potencial para estratégias de retenção e fidelização.
+- Atrasos impactam diretamente a avaliação do cliente  
+- Estados com maior tempo de entrega apresentam pior experiência  
+- Logística é fator crítico para satisfação e retenção  
 
 ---
 
-# 3️⃣ Logística e Experiência do Cliente
+# 🚨 Principais Insights de Negócio
 
-Dashboard focado na eficiência logística e impacto na satisfação do cliente.
-
-### KPIs
-
-- Tempo Médio de Entrega
-- Pedidos Atrasados
-- % Entregas no Prazo
-- Avaliação Média
-
-### Análises
-
-- Tempo médio de entrega por estado
-- Distribuição do tempo de entrega
-- Impacto do atraso na avaliação
-
-### Insight
-
-Pedidos entregues com atraso apresentam **avaliações significativamente menores**, evidenciando o impacto direto da logística na experiência do cliente.
+- O marketplace apresenta forte volume de vendas, porém baixa retenção de clientes  
+- A maioria dos usuários não retorna após a primeira compra  
+- A logística influencia diretamente a satisfação do cliente  
+- A eficiência operacional impacta indicadores de experiência e reputação  
+- Existe oportunidade clara de aumento de receita via retenção  
 
 ---
 
-# 📊 Principais Insights
+# 🔥 💡 Hipóteses de Negócio
 
-Alguns dos principais insights identificados na análise:
-
-- O marketplace gerou aproximadamente **R$13,6 milhões em receita**
-- Foram registrados cerca de **99 mil pedidos**
-- O **ticket médio é de aproximadamente R$137**
-- A maioria dos clientes realiza **apenas uma compra**
-- A região Sudeste concentra a maior parte das vendas
-- O **cartão de crédito é o método de pagamento predominante**
-- Aproximadamente **92% das entregas são realizadas dentro do prazo**
-- Pedidos atrasados reduzem significativamente a avaliação dos clientes
+1. Melhorar o tempo de entrega aumenta a satisfação e retenção  
+2. Clientes com boa experiência inicial têm maior probabilidade de recompra  
+3. Incentivos na primeira compra podem aumentar recorrência  
+4. Regiões com pior logística apresentam maior churn  
 
 ---
 
-# 📊 Dashboard Power BI
+# 🧪 Propostas de Experimentação
 
-O dashboard completo em **Power BI** pode ser acessado no link abaixo:
+### 🎯 Experimento 1 — Logística
 
-👉 **Download do Dashboard Power BI (.PBIX)**
-
-https://drive.google.com/file/d/1Kr2501ubEx2E0K7N9g71pdCxhBLW78D0/view?usp=sharing
-
-Abra o arquivo utilizando o **Power BI Desktop** para explorar todas as análises e interações do dashboard.
+- Redução do prazo de entrega para novos clientes  
+- Medir impacto em:
+  - Avaliação  
+  - Retenção  
+  - Recompra  
 
 ---
 
-# 📷 Visualização dos Dashboards
+### 🎯 Experimento 2 — Retenção
+
+- Campanhas de incentivo pós-primeira compra  
+- Testar:
+  - Cupons  
+  - Frete grátis  
+  - Comunicação personalizada  
+
+---
+
+### 🎯 Experimento 3 — Segmentação
+
+- Criar estratégias específicas por região  
+- Foco em estados com pior performance logística  
+
+---
+
+# 📈 Impacto Esperado no Negócio
+
+- Aumento da retenção de clientes  
+- Crescimento do LTV (Lifetime Value)  
+- Redução do churn  
+- Aumento de receita sem necessidade de aquisição  
+
+💥 Resultado esperado: crescimento sustentável do marketplace
+
+---
+
+# 🧠 Recomendação Estratégica
+
+- Priorizar melhorias logísticas como alavanca de experiência  
+- Criar estratégias focadas na primeira jornada do cliente  
+- Implementar cultura de experimentação contínua (A/B Tests)  
+- Monitorar retenção como KPI principal de crescimento  
+
+---
+
+# 📊 Dashboard
 
 ## Visão Geral
-
 ![Dashboard Executivo](images/dashboard_visao_geral.png)
 
----
-
 ## Análise de Clientes
-
 ![Dashboard Clientes](images/dashboard_clientes.png)
 
----
-
-## Logística e Experiência do Cliente
-
+## Logística e Experiência
 ![Dashboard Logistica](images/dashboard_logistica.png)
 
 ---
 
+# 🚀 Diferenciais do Projeto
 
-# 💡 Competências Demonstradas
+- Análise end-to-end de um marketplace  
+- Integração entre dados de negócio, cliente e operação  
+- Foco em impacto estratégico  
+- Aplicação de pensamento orientado a produto  
+- Proposição de experimentos para crescimento  
 
-Este projeto demonstra habilidades em:
+---
 
-- Business Intelligence
-- Data Analytics
-- SQL para análise de dados
-- Modelagem de dados
-- Criação de métricas em DAX
-- Data Visualization
-- Storytelling com dados
-- Análise de comportamento do consumidor
-- Análise logística
+# 🔮 Próximos Passos
+
+- Implementação de análise de cohort (retenção ao longo do tempo)  
+- Modelagem de churn  
+- Previsão de demanda logística  
+- Segmentação avançada de clientes  
 
 ---
 
 # 👨‍💻 Autor
 
-**Weslley Marques**
-
-Profissional formado em **Sistemas de Informação**, com foco em **Business Intelligence, Data Analytics e Data Visualization**.
-
-Este projeto faz parte do meu portfólio de análise de dados, demonstrando habilidades em **SQL, modelagem de dados, criação de dashboards e geração de insights para tomada de decisão**.
-
+**Weslley Marques**  
+LinkedIn: www.linkedin.com/in/weslley-marques-86a28937b
